@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Zealand scenarios" time="33.949" tests="2" failures="0" errors="0">
+   <testsuite name="New Zealand scenarios" tests="2" failures="0" errors="0" time="33.949" skipped="0" timestamp="2024-12-23 02:33:54" hostname="Rogen D.G. Mojica - BBT-Rojen" id="Test Suites/New Zealand scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rogen D.G. Mojica\\Desktop\\Datacom\\Reports\\20241223_023341\\New Zealand scenarios\\20241223_023341"/>
+         <property name="logFiles" value="C:\\Users\\Rogen D.G. Mojica\\Desktop\\Datacom\\Reports\\20241223_023341\\New Zealand scenarios\\20241223_023341\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rogen D.G. Mojica - BBT-Rojen"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.6"/>
+         <property name="sessionId" value="b485843c0131ece4fb2b1746ef811933"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Datacom/validate_New_Zealand_Locations" time="13.911" classname="Test Cases/Datacom/validate_New_Zealand_Locations" status="PASSED">
+         <system-out><![CDATA[2024-12-23 02:33:55 - [TEST_CASE][PASSED] - Test Cases/Datacom/validate_New_Zealand_Locations: Test Cases/Datacom/validate_New_Zealand_Locations
+
+2024-12-23 02:33:55 - [TEST_STEP][PASSED] - openBrowser("https://datacom.com/nz/en/contact-us", CONTINUE_ON_FAILURE): Browser is opened with url: 'https://datacom.com/nz/en/contact-us'
+
+2024-12-23 02:33:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-12-23 02:33:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-12-23 02:34:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://datacom.com/nz/en/contact-us'
+
+2024-12-23 02:34:01 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2024-12-23 02:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+2024-12-23 02:34:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Datacom/Our Location"), 3, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Datacom/Our Location' successfully
+
+2024-12-23 02:34:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Datacom/Our Location' successfully
+
+2024-12-23 02:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Datacom/New Zealand tab"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Datacom/New Zealand tab' is clicked on
+
+2024-12-23 02:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/New Zealand tab' is clicked on
+
+2024-12-23 02:34:03 - [TEST_STEP][PASSED] - for ([x = 0, x < 9, (x++)]): null
+
+2024-12-23 02:34:03 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:03 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): Scroll to object 'Object Repository/Datacom/NZ locations details/Location' successfully
+
+2024-12-23 02:34:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":9]), 3, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Datacom/NZ locations details/Location' successfully
+
+2024-12-23 02:34:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Datacom/NZ locations details/Location' successfully
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - locations = ["Auckland", "Christchurch", "Dunedin", "Hamilton", "Hastings", "Nelson", "New Plymouth", "Rotorua", "Tauranga", "Wellington"]: null
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - if (locations[x] == "New Plymouth"): null
+
+2024-12-23 02:34:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Datacom/NZ locations details/Location", ["index":x]), locations[x], CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Location' are matched.
+
+2024-12-23 02:34:08 - [TEST_STEP][PASSED] - print(locations[x]): null
+
+2024-12-23 02:34:08 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2024-12-23 02:34:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Datacom/validate_New_Zealand_Locations_details" time="19.687" classname="Test Cases/Datacom/validate_New_Zealand_Locations_details" status="PASSED">
+         <system-out><![CDATA[2024-12-23 02:34:08 - [TEST_CASE][PASSED] - Test Cases/Datacom/validate_New_Zealand_Locations_details: Test Cases/Datacom/validate_New_Zealand_Locations_details
+
+2024-12-23 02:34:09 - [TEST_STEP][PASSED] - openBrowser("https://datacom.com/nz/en/contact-us", CONTINUE_ON_FAILURE): Browser is opened with url: 'https://datacom.com/nz/en/contact-us'
+
+2024-12-23 02:34:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-12-23 02:34:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-12-23 02:34:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://datacom.com/nz/en/contact-us'
+
+2024-12-23 02:34:13 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2024-12-23 02:34:13 - [MESSAGE][PASSED] - Current window maximized
+
+2024-12-23 02:34:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Datacom/Our Location"), 3, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Datacom/Our Location' successfully
+
+2024-12-23 02:34:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Datacom/Our Location' successfully
+
+2024-12-23 02:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Datacom/New Zealand tab"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Datacom/New Zealand tab' is clicked on
+
+2024-12-23 02:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/New Zealand tab' is clicked on
+
+2024-12-23 02:34:15 - [TEST_STEP][PASSED] - Datacom.validate_Locations_Details("Auckland", "58 Gaunt Street, Auckland CBD, Auckland 1010", "+64 9 303 1489", "reception.gaunt@datacom.co.nz"): Navigate back successfully
+
+2024-12-23 02:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/NZ locations details/Location' is clicked on
+
+2024-12-23 02:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/NZ locations details/Location' is clicked on
+
+2024-12-23 02:34:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Address' are matched.
+
+2024-12-23 02:34:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Phone' are matched.
+
+2024-12-23 02:34:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Email' are matched.
+
+2024-12-23 02:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/Datacom/NZ locations details/icons/address' is visible
+
+2024-12-23 02:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/Datacom/NZ locations details/icons/phone' is visible
+
+2024-12-23 02:34:19 - [MESSAGE][PASSED] - Object 'Object Repository/Datacom/NZ locations details/icons/email' is visible
+
+2024-12-23 02:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/NZ locations details/Redirection' is clicked on
+
+2024-12-23 02:34:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/gmap location' are matched.
+
+2024-12-23 02:34:22 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-12-23 02:34:22 - [TEST_STEP][PASSED] - Datacom.validate_Locations_Details("Christchurch", "67 Gloucester Street, Christchurch 8013", "+64 3 379 7775", "reception.christchurch@datacom.co.nz"): Navigate back successfully
+
+2024-12-23 02:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/NZ locations details/Location' is clicked on
+
+2024-12-23 02:34:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Address' are matched.
+
+2024-12-23 02:34:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Phone' are matched.
+
+2024-12-23 02:34:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/NZ locations details/Email' are matched.
+
+2024-12-23 02:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/Datacom/NZ locations details/icons/address' is visible
+
+2024-12-23 02:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/Datacom/NZ locations details/icons/phone' is visible
+
+2024-12-23 02:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Datacom/NZ locations details/icons/email' is visible
+
+2024-12-23 02:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Datacom/NZ locations details/Redirection' is clicked on
+
+2024-12-23 02:34:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Datacom/gmap location' are matched.
+
+2024-12-23 02:34:27 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-12-23 02:34:27 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2024-12-23 02:34:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-12-23 02:33:54 - [TEST_SUITE][PASSED] - New Zealand scenarios: Test Cases/Datacom/validate_New_Zealand_Locations_details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

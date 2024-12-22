@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Zealand scenarios,Chrome 131.0.0.0,,,2024-12-23 02:33:54,2024-12-23 02:34:28,33.949s,PASSED
+,,,,,,,
+Test Cases/Datacom/validate_New_Zealand_Locations,Chrome 131.0.0.0,,,2024-12-23 02:33:55,2024-12-23 02:34:08,13.911s,PASSED
+"openBrowser(""https://datacom.com/nz/en/contact-us"", CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,2024-12-23 02:33:55,2024-12-23 02:34:01,6.379s,PASSED
+maximizeWindow(CONTINUE_ON_FAILURE),Chrome 131.0.0.0,,,2024-12-23 02:34:01,2024-12-23 02:34:02,0.233s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Datacom/Our Location""), 3, CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,2024-12-23 02:34:02,2024-12-23 02:34:02,0.669s,PASSED
+"click(findTestObject(""Object Repository/Datacom/New Zealand tab""), CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,2024-12-23 02:34:02,2024-12-23 02:34:03,0.992s,PASSED
+"for ([x = 0, x < 9, (x++)])",Chrome 131.0.0.0,,,2024-12-23 02:34:03,2024-12-23 02:34:08,4.407s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 131.0.0.0,,,2024-12-23 02:34:08,2024-12-23 02:34:08,0.751s,PASSED
+,,,,,,,
+Test Cases/Datacom/validate_New_Zealand_Locations_details,Chrome 131.0.0.0,,,2024-12-23 02:34:08,2024-12-23 02:34:28,19.687s,PASSED
+"openBrowser(""https://datacom.com/nz/en/contact-us"", CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,2024-12-23 02:34:09,2024-12-23 02:34:13,4.464s,PASSED
+maximizeWindow(CONTINUE_ON_FAILURE),Chrome 131.0.0.0,,,2024-12-23 02:34:13,2024-12-23 02:34:13,0.132s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Datacom/Our Location""), 3, CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,2024-12-23 02:34:13,2024-12-23 02:34:14,0.560s,PASSED
+"click(findTestObject(""Object Repository/Datacom/New Zealand tab""), CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,2024-12-23 02:34:14,2024-12-23 02:34:15,1.005s,PASSED
+"Datacom.validate_Locations_Details(""Auckland"", ""58 Gaunt Street, Auckland CBD, Auckland 1010"", ""+64 9 303 1489"", ""reception.gaunt@datacom.co.nz"")",Chrome 131.0.0.0,,,2024-12-23 02:34:15,2024-12-23 02:34:22,6.607s,PASSED
+"Datacom.validate_Locations_Details(""Christchurch"", ""67 Gloucester Street, Christchurch 8013"", ""+64 3 379 7775"", ""reception.christchurch@datacom.co.nz"")",Chrome 131.0.0.0,,,2024-12-23 02:34:22,2024-12-23 02:34:27,5.732s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 131.0.0.0,,,2024-12-23 02:34:27,2024-12-23 02:34:28,0.802s,PASSED
